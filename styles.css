@@ -1,0 +1,64 @@
+@media (max-width: 100px) and (min-width: 10px) {
+    img {
+        width: 20px;
+        height:auto;
+    }
+}
+img {
+    width: 20px;
+    height: auto;
+}
+html {
+    padding: 0 10% 0;
+    background-color:darkslategray;
+}
+
+main {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: justify;
+    font-size: 1.75rem;
+}
+
+header {
+    font-weight:bold;
+    font-size:1.25rem;
+}
+a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+a:hover{
+    text-decoration:wavy;
+    color:chocolate
+}
+#navbar {
+    margin:auto -10% auto;
+    float: left;
+    color: white;
+    display:inline;
+}
+#navbar header{
+    float:left;
+    border:3px dotted white;
+    padding:3px;
+}
+#navbar a{
+    float:left;
+    margin:auto 10px auto;
+    font-size:2rem;
+}
+main{
+    border-radius:3%;
+    float:left;
+    padding:2%;
+    margin:5% auto 3%;
+}
+#github{
+    float:left;
+}
